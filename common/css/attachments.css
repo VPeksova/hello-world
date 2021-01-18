@@ -1,0 +1,126 @@
+.portlet-Attachments {
+    position: relative;
+/*    width: 680px;*/
+    overflow: visible;
+    padding-top: 20px;
+}
+
+.portlet-Attachments .blok{
+    float: left;
+    width: 310px;
+    margin-top: 20px;
+}
+
+.portlet-Attachments .blok h2{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    line-height: 26px;
+    padding-left: 30px;
+}
+
+.portlet-Attachments ul.prilohy{
+    padding-left: 15px;
+    margin-left: -15px;
+    overflow: hidden;
+}
+
+.portlet-Attachments .GR_KA,
+.portlet-Attachments .DA{
+    background: url("../images/CSU/data.gif") 0 0 no-repeat;
+}
+
+.portlet-Attachments .AN_KO{
+    background: url("../images/CSU/analyzy-data.gif") 0 0 no-repeat;
+}
+
+.portlet-Attachments .ME{
+    background: url("../images/CSU/metodika.gif") 0 0 no-repeat;
+}
+
+.portlet-Attachments .SO_IN{
+    background: url("../images/CSU/souvisejici-informace.gif") 0 0 no-repeat;
+}
+
+.portlet-Attachments .podblok > a:first-child {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.portlet-Attachments .podblok-obsah{
+    padding-left: 20px;
+}
+
+.portlet-Attachments .column{
+    float: left;
+    width: 340px;
+}
+
+.portlet-Attachments ul.prilohy-stranka li .priloha-wrapper, .portlet-Attachments ul.prilohy-statistiky li .priloha-wrapper{
+    padding-bottom: 4px;
+}
+
+.portlet-Attachments .prilohy-publikace {
+    width: 100%;
+}
+
+.portlet-Attachments .prilohy-publikace td{
+    padding: 7px 10px;
+}
+
+.portlet-Attachments .prilohy-publikace td.csu_odkaz_odsazeni_zleva {
+    padding-left: 28px;
+}
+
+.portlet-Attachments .prilohy-publikace td.csu_odkaz_odsazeni_shora{
+    padding-top: 18px;
+}
+
+.portlet-Attachments .prilohy-publikace td.csu_odkaz_odsazeni_zdola{
+    padding-bottom: 22px;
+}
+
+.portlet-Attachments .prilohy-publikace tr {
+    vertical-align: top;
+}
+
+.portlet-Attachments .prilohy-publikace .nazev{
+}
+
+.portlet-Attachments .prilohy-publikace .odkazy {
+    width: 110px;
+    padding-left: 20px;
+    text-align: start;
+}
+
+#content .portlet-Attachments .rozbaleny {
+    background-color: #2AA2C7;
+}
+
+.portlet-Attachments .publikace-priloha {
+    padding: 1px 2px;
+    border: #e6e6e6 1px solid;
+    font-weight: normal;
+    font-size: 90%;
+    color: #ffffff;
+    background-color: #0059A9;
+    float: left;
+    cursor: pointer;
+}
+
+#content .portlet-Attachments .publikace-priloha:hover, #content .portlet-Attachments .rozbaleny:hover {
+    padding: 1px 2px;
+    border: #e6e6e6 1px solid;
+    font-weight: normal;
+    font-size: 90%;
+    color: #bf1627;
+    background-color: #ffffff;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.portlet-Attachments .datum {
+
+}

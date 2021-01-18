@@ -1,0 +1,28 @@
+#tajnyPanel .portlet-TajnyPanel {
+	width: 100%;
+	z-index: 100;
+	border-radius: 4px;
+	background-color: #ffdf80;
+	border-bottom: 1px solid #333;
+}
+#tajnyPanel table.wrapper-table {
+	width: 100%;
+}
+#tajnyPanel table.wrapper-table tr td:last-child {
+	text-align: right;
+}
+#tajnyPanel table.wrapper-table tr td .plneJmeno {
+	font-weight: bold;
+	padding-right: 5px;
+	font-size: 13px;
+}
+#tajnyPanel table.wrapper-table tr td .logout a {
+	color: #2c2f34;
+	font-weight: bold;
+	text-shadow: 1px 1px #fff;
+	font-size: 0.8em;
+}
+
+#tajnyPanel table.wrapper-table tr td .logout a:hover {
+	color: #bf1627;
+}

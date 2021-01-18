@@ -1,0 +1,692 @@
+*, html, body, p, ul,  h1, h2, h3, h4, h5, h6, table, tr, td, th, form, fieldset, img, button, input { 
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+	outline: 0; 
+}
+
+.clear {
+    clear: both;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    width: 100%;
+}
+
+body, .ui-widget {
+	font-family: Tahoma, 'Lucida Grande CE', lucida, sans-serif;
+	color: #333;
+	font-size: 1em;
+}
+
+body {
+	font-size: .813em;
+	text-align: left;
+	background: #ffffff;
+	margin-top: 0px;
+	margin-bottom: 100px;
+	padding-top: 0px;
+}
+
+body.staging {
+	background: url("../images/CSU/staging_bck.png");
+}
+
+p {
+	/* CKEditor misto <br> vklada prazdne odstavce */
+	min-height: 1em !important; /* Odpoznamkovano */
+	line-height: 1.4em;
+	margin-bottom: 1em;
+}
+
+a, .ui-widget a {
+ 	color: #0059A9;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+a:hover, a:focus, a:active,
+.ui-widget a:hover, .ui-widget a:focus, .ui-widget a:active {
+ 	color: #bf1627; 
+}
+
+hr {
+	/*border: 0 none;*/
+	display: none;
+}
+
+.separator {
+	border-top: 1px dotted #bfbfbf;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+	font-weight: normal; 
+	color: #333; 
+}
+
+h1 { 
+	clear: both; 
+	font-size: 2.3em;
+	color: #bf1627; 
+}
+
+h2 { 
+	margin: 28px 0 20px;
+	line-height: 37px;
+	font-size: 26px;
+}
+
+h2.ri-podtitul {
+  	margin: 0 0 20px;
+  	font-weight: bold;
+    font-size: 1.31em;
+}
+
+h3 {
+	margin: 28px 0 18px;
+	line-height: 31px;
+	font-size: 23px;
+}
+
+h3.obrazek img {
+	width: 26px;
+	height: 26px;
+	position: relative;
+	top: 4px;
+	margin-right: 8px;
+}
+
+h4 {
+	margin: 22px 0 17px;
+	line-height: 25px;
+	font-weight: bold;
+    font-size: 18px;
+}
+
+h5 {
+	margin: 22px 0 14px;
+	line-height: 22px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+h6 {
+    margin: 22px 0 7px;
+    line-height: 19px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.portlet-Attachments .blok h2 {
+	margin-top: 0px;
+}
+
+label.stitek-pole {
+	font-weight: bold;
+}
+
+label span.povinne,
+.povinne {
+	color: #FF0000;
+}
+
+/* obrazek */
+img {
+	border-color: #e6e6e6;
+}
+
+img.obrazek {
+	border: 5px solid #e6e6e6;
+}
+
+/* Tabulka bez classu */
+table td {
+	padding: 7px 10px;
+}
+
+/* tabulka (tri barevne varianty, moznost odliseni sudych/lichych radku) */
+table.tabulka,
+table.tabulka-word {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #999;
+	background: url('../images/CSU/csu_2012_dots.gif') 0 top repeat-x;
+	margin-bottom: 20px;
+}
+
+table.tabulka td, table.tabulka th,
+table.tabulka-word td, table.tabulka-word th {
+	background-image: url('../images/CSU/csu_2012_dots.gif');
+	background-position: 0 bottom;
+	background-repeat: repeat-x;
+	line-height: 17px;
+	padding: 7px 10px;
+	color: #565656;
+	vertical-align: top;
+	font-weight: normal;
+	text-align: left;
+	border-right: 1px solid #f2f2f2;
+}
+
+table.tabulka tr td:last-child, table.tabulka tr th:last-child,
+table.tabulka-word tr td:last-child, table.tabulka-word tr th:last-child {
+	border-right: none;
+}
+
+table.tabulka tr:last-child td,
+table.tabulka-word tr:last-child td {
+	background-image: none;
+}
+
+table.pruhovana.tabulka tr:nth-child(odd),
+table.pruhovana.tabulka-word tr:nth-child(odd) {
+	background-color: #FAFAFA;
+}
+
+table.tabulka th,
+table.tabulka-word th {
+	font-weight: bold;
+	height: 31px;
+	line-height: 31px;
+}
+
+table.tabulka.tab-modre-zahlavi th, table.tabulka.tab-cervene-zahlavi th,
+table.tabulka-word.tab-modre-zahlavi th, table.tabulka-word.tab-cervene-zahlavi th {
+	color: #fff;
+	border-right: none;
+}
+
+table.tabulka.tab-modre-zahlavi th,
+table.tabulka-word.tab-modre-zahlavi th {
+	background: #0094d0 url('../images/CSU/csu_2012_table-th.png') 0px bottom no-repeat;
+}
+
+table.tabulka.tab-cervene-zahlavi th,
+table.tabulka-word.tab-cervene-zahlavi th {
+	background: #bf1627 url('../images/CSU/csu_2012_table-th-red.png') 0px bottom no-repeat;
+}
+
+table.tabulka.tab-modre-zahlavi th:first-child, table.tabulka.tab-cervene-zahlavi th:first-child,
+table.tabulka-word.tab-modre-zahlavi th:first-child, table.tabulka-word.tab-cervene-zahlavi th:first-child {
+	background-position: -2px bottom;
+	background-repeat: no-repeat;
+}
+
+
+/* Uzivatelske styly mezinadpisu a odkazu v prilohach */
+.csu_odkaz_tucne .odkaz-style-wrapper {
+    font-weight: bold !important;
+}
+
+.csu_odkaz_kurziva .odkaz-style-wrapper {
+    font-style: italic;
+}
+
+.csu_odkaz_odsazeni_zleva {
+    margin-left: 10px !important;
+}
+
+a.csu_odkaz_odsazeni_shora, a.csu_odkaz_odsazeni_zdola {
+	display: block;
+}
+
+.csu_odkaz_odsazeni_shora {
+    padding-top: 10px !important;
+}
+
+.csu_odkaz_odsazeni_zdola {
+    padding-bottom: 10px !important;
+}
+
+
+/***************/
+.czso_body {
+	background: #f5f5f5;
+}
+
+/* styly pisma */
+.tucne {
+	font-weight: bold;
+}
+
+.kurziva {
+	font-style: italic;
+}
+
+.podtrzene {
+	text-decoration: underline;
+}
+
+.preskrtnute {
+	text-decoration: line-through;
+}
+
+a.external-link {
+    background-image: url(../images/CSU/aboutblank.gif);
+    background-repeat: no-repeat;
+    padding-right: 15px;
+    background-position: right 3px;
+}
+
+
+/* Dvousloupcovy layout */
+.columns-2 .portlet-column {
+    vertical-align: top;
+}
+
+.columns-2 #column-1{
+    float: left;
+    width: 685px;
+}
+
+.columns-2 #column-2{
+    width: 205px;
+    float: right;
+    padding-top: 69px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Titulni stranka */
+.domov .columns-2 #column-2, .home .columns-2 #column-2{
+    width: 280px;
+    padding-top: 0;
+}
+
+.domov .columns-2 #column-1, .home .columns-2 #column-1{
+    width: 600px;
+    padding-top: 0;
+}
+
+.domov #content, .home #content{
+    padding-top: 17px;
+}
+
+.select-1-vyditelny{
+    height: 24px;
+    font-size:14px;
+}
+
+.columns-1 .portlet-boundary{
+    clear: both;
+}
+
+.columns-1 .portlet-boundary_RecentNewsPortlet_WAR_rsprezentace_{
+    width: 280px;
+    float: right;
+    clear: none;
+}
+
+.columns-1 .portlet-boundary_CarouselPortlet_WAR_rsprezentace_{
+    width: 600px;
+    float: left;
+    clear: none;
+}
+
+/* Pristupnost */
+.hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: block !important;
+}
+
+/* Navigacni lista (Breadcrumbs + Tisk) */
+.navprint {
+	overflow: hidden;
+    padding-top: 4px;
+}
+
+.navprint nav {
+	float: left;
+	width: 90%; /* MKL (pri plne sirce se odsouva link na tisk dolu) */
+}
+
+#print-button {
+	color: #888;
+	float: right;
+    margin-top: 2px;
+	padding-right: 5px;
+}
+
+#print-button:hover {
+	color: #BF1627;
+}
+
+#print-button span {
+	width: 15px;
+	height: 13px;
+	background: url('../images/CSU/csu_2012_print.png') 0px 0px no-repeat;
+	display: block;
+	margin: 4px;
+	float: left;
+}
+
+#print-button:hover span {
+	background: url('../images/CSU/csu_2012_print.png') -15px 0 no-repeat;
+}
+
+/* Breadcrumbs */
+#breadcrumbs {
+	margin-left: 5px;
+}
+
+.breadcrumbs li.first {
+	padding-left: 17px;
+	background: url("../images/CSU/csu_2012_breadcrumbs-home1.gif") no-repeat left center;
+}
+
+.breadcrumbs li.first:hover {
+	background: url("../images/CSU/csu_2012_breadcrumbs-home2.gif") no-repeat left center;
+}
+
+.breadcrumbs li {
+	padding-left: 15px;
+	background: url("../images/CSU/breadcrumbs.png") no-repeat left center;
+}
+
+.breadcrumbs li a {
+	line-height: 18px;
+	color: #888888;
+}
+
+.breadcrumbs li.last {
+	text-decoration: none;
+	color: #565656;
+
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	max-width: 100%;
+}
+
+.breadcrumbs li.last a {
+	text-decoration: none;
+	color: #565656;
+}
+
+.breadcrumbs li a:hover {
+	color: #000000;
+}
+
+/* odkazy se sipkou */
+a.sipka-pred,
+span.sipka-pred {
+	background: url("../images/CSU/csu_2012_arrow-blue.gif") no-repeat scroll 0 7px transparent;
+	float: none;
+	line-height: 20px;
+	padding: 0px 0px 10px 10px;
+}
+
+a.sipka-za,
+span.sipka-za {
+	background: url("../images/CSU/csu_2012_arrow-blue.gif") no-repeat scroll right 7px transparent;
+	float: none;
+	line-height: 20px;
+	padding: 0px 10px 10px 0px;
+}
+
+a:hover .sipka-pred, a:hover .sipka-za {
+	background-image: url("../images/CSU/csu_2012_arrow-red.gif");
+}
+
+a.vice {
+	margin-bottom:20px;
+	padding-right:10px;
+	text-align:right;
+	display:block;
+	line-height:17px;
+}
+
+.poznamka, .popis {
+	padding: 1px 0 0 16px;
+	font-size: 0.846em;
+}
+
+/* Seznamy */
+ul.seznam li {
+	list-style: square url("../images/CSU/arrow.gif") inside;
+}
+
+
+/* Paticka */
+#footerBlock {
+    display: inline-block;
+    width: 65%;
+    text-align: left;
+    float: left;
+}
+
+#footerBlock span.copyright {
+    color: rgb(102, 102, 102);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+#footerDate{
+    display: inline-block;
+    text-align: right;
+    float: right;
+}
+
+/* Portlet Obsah */
+.portlet-Content .zalozky{
+    display: block;
+    background: #e6e6e6;
+    padding: 0 3px;
+    margin-bottom: 20px;
+}
+
+.portlet-Content .zalozky ul{
+    margin-bottom: 0;
+    margin-left: 0;
+    position: relative;
+}
+
+.portlet-Content .zalozky li {
+    display: block;
+    float: left;
+    height: 45px;
+    background: url(../images/CSU/csu_2012_tabs.png) left 0 no-repeat;
+    margin: 10px 4px 0 4px;
+    padding: 0;
+}
+
+.portlet-Content .zalozky li.active {
+    background: url(../images/CSU/csu_2012_tabs.png) left -90px no-repeat;
+    font-weight: bold;
+}
+
+.portlet-Content .zalozky li.active a {
+    color: #bf1627;
+    text-decoration: none;
+    background: url(../images/CSU/csu_2012_tabs.png) right -135px no-repeat;
+}
+
+.portlet-Content .zalozky li a {
+    display: block;
+    float: left;
+    line-height: 45px;
+    padding: 0 8px;
+    background: url(../images/CSU/csu_2012_tabs.png) right -45px no-repeat;
+    font-site: 1em;
+}
+
+.obsah-pruh{
+   border-top:5px solid #e6e6e6;
+    width:100%;
+    margin-top:3px;
+}
+
+li.decor-arrow {
+    list-style-image:url('../images/CSU/csu_2012_arrow-blue.gif');
+}
+
+.csu-stranka .lfr-meta-actions, .csu-stranka .portlet-borderless-bar, .csu-stranka .portlet-topper-toolbar, .csu-stranka .lfr-configurator-visibility {
+    display: none !important;
+}
+
+/* rozbalovaci sekce */
+ul.rozbalovaci-sekce li {
+    font-weight: bolder;
+}
+
+ul.rozbalovaci-sekce > li > ul {
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+ul.rozbalovaci-sekce > li > ul > li {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    font-weight: normal;
+}
+
+ul.rozbalovaci-sekce > li {
+    color: #0059a9;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+ul.rozbalovaci-sekce li li {
+    clear: both;
+    color: #333;
+    cursor: default;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+ul.rozbalovaci-sekce > li > ul > li > ul > li {
+	display: list-item;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+/* jquery ui */
+.czso_body .ui-button-text-only .ui-button-text {
+    padding: 0.3em .8em;
+}
+
+.search-choice a{
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+.portlet-static .portlet-borderless-bar {
+    display: none;
+}
+
+.portlet-borderless-container {
+    min-height: inherit;
+}
+
+.obsah {
+    word-wrap: break-word;
+}
+
+#iop-logo{
+	display: block;
+	margin: 0 auto;
+}
+
+/* Adresar vedoucich zamestnancu */
+.adresar-vedoucich-zamestnancu{
+	 width: 100%;
+ }
+
+.adresar-vedoucich-zamestnancu td{
+	 padding-right: 10px;
+}
+.adresar-vedoucich-zamestnancu tr.uroven-1 td:first-child {
+	padding-left: 0;
+}
+
+.adresar-vedoucich-zamestnancu tr.uroven-2 td:first-child{
+	padding-left: 5px;
+}
+
+.adresar-vedoucich-zamestnancu tr.uroven-3 td:first-child{
+	padding-left: 10px;
+}
+
+.adresar-vedoucich-zamestnancu h4, .adresar-vedoucich-zamestnancu h5, .adresar-vedoucich-zamestnancu h6{
+	margin-bottom: 4px;
+	margin-top: 25px;
+	font-weight: bold;
+}
+
+.adresar-vedoucich-zamestnancu h4{
+	font-size: 1.5em;
+}
+
+.adresar-vedoucich-zamestnancu h5{
+	font-size: 1.1em;
+}
+
+.adresar-vedoucich-zamestnancu h6{
+	font-size: 1.0em;
+}
+
+.portlet-image-gallery-display .header-title {
+	display: none;
+}
+
+.itp .distinguisher_line, .tp .distinguisher_line {
+	width: 100%;
+	height: 11px;
+	background: #995001 url('../images/CSU/header-background.png') repeat-x 0px 0px;
+}
+
+.search-layout table.result-info {
+	margin-bottom: 10px;
+}
+.search-layout table.result-info td {
+	padding: 2px 10px;
+}
+.search-layout table.result-info td.left {
+	width: 110px;
+	vertical-align: top;
+}
+.search-layout table.result-info td.right {
+	text-align: left;
+}
+
+.portlet-wiki .wiki-body table th,
+.portlet-wiki .wiki-body table td {
+  border: 1px solid #333;
+}
+      
+.portlet-wiki .wiki-body table th {
+  padding: 7px 10px;
+}
+		
+.portlet-wiki .wiki-body ul {
+  padding-left: 2em;
+}
+
+.banner-z {
+	background: url("../images/CSU/csu_2012_arrow-blue.gif") no-repeat scroll 0px 5px transparent;
+	padding: 0px 0px 6px 10px;
+    display: block;
+}
+
+/* FF fix for focusring dotted outline*/
+button:focus
+{outline:none !important;}
+
+button::-moz-focus-inner
+{border: 0!important;}
+
+/* end FF fix */ 

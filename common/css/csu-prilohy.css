@@ -1,0 +1,130 @@
+.priloha-vychozi {
+	float: left;
+	width: 16px;
+	height: 18px;
+	background: url('../images/file_system/small/page.png') 0px 2px no-repeat;
+	margin-right: 2px;
+}
+.priloha-bmp {
+	background: url('../images/file_system/small/bmp.png') 0px 2px no-repeat;
+}
+.priloha-css {
+	background: url('../images/file_system/small/css.png') 0px 2px no-repeat;
+}
+.priloha-csv {
+	background: url('../images/file_system/small/csv.png') 0px 2px no-repeat;
+}
+.priloha-doc {
+	background: url('../images/file_system/small/doc.png') 0px 2px no-repeat;
+}
+.priloha-docx {
+	background: url('../images/file_system/small/docx.png') 0px 2px no-repeat;
+}
+.priloha-dot {
+	background: url('../images/file_system/small/dot.png') 0px 2px no-repeat;
+}
+.priloha-gif {
+	background: url('../images/file_system/small/gif.png') 0px 2px no-repeat;
+}
+.priloha-gz {
+	background: url('../images/file_system/small/gz.png') 0px 2px no-repeat;
+}
+.priloha-htm {
+	background: url('../images/file_system/small/htm.png') 0px 2px no-repeat;
+}
+.priloha-html {
+	background: url('../images/file_system/small/html.png') 0px 2px no-repeat;
+}
+.priloha-jpeg {
+	background: url('../images/file_system/small/jpeg.png') 0px 2px no-repeat;
+}
+.priloha-jpg {
+	background: url('../images/file_system/small/jpg.png') 0px 2px no-repeat;
+}
+.priloha-js {
+	background: url('../images/file_system/small/js.png') 0px 2px no-repeat;
+}
+.priloha-lar {
+	background: url('../images/file_system/small/lar.png') 0px 2px no-repeat;
+}
+.priloha-odb {
+	background: url('../images/file_system/small/odb.png') 0px 2px no-repeat;
+}
+.priloha-odf {
+	background: url('../images/file_system/small/odf.png') 0px 2px no-repeat;
+}
+.priloha-odg {
+	background: url('../images/file_system/small/odg.png') 0px 2px no-repeat;
+}
+.priloha-odp {
+	background: url('../images/file_system/small/odp.png') 0px 2px no-repeat;
+}
+.priloha-ods {
+	background: url('../images/file_system/small/ods.png') 0px 2px no-repeat;
+}
+.priloha-odt {
+	background: url('../images/file_system/small/odt.png') 0px 2px no-repeat;
+}
+.priloha-page {
+	background: url('../images/file_system/small/page.png') 0px 2px no-repeat;
+}
+.priloha-pdf {
+	background: url('../images/file_system/small/pdf.png') 0px 2px no-repeat;
+}
+.priloha-png {
+	background: url('../images/file_system/small/png.png') 0px 2px no-repeat;
+}
+.priloha-ppsx {
+	background: url('../images/file_system/small/ppsx.png') 0px 2px no-repeat;
+}
+.priloha-ppt {
+	background: url('../images/file_system/small/ppt.png') 0px 2px no-repeat;
+}
+.priloha-pptx {
+	background: url('../images/file_system/small/pptx.png') 0px 2px no-repeat;
+}
+.priloha-rtf {
+	background: url('../images/file_system/small/rtf.png') 0px 2px no-repeat;
+}
+.priloha-swf {
+	background: url('../images/file_system/small/swf.png') 0px 2px no-repeat;
+}
+.priloha-sxc {
+	background: url('../images/file_system/small/sxc.png') 0px 2px no-repeat;
+}
+.priloha-sxi {
+	background: url('../images/file_system/small/sxi.png') 0px 2px no-repeat;
+}
+.priloha-sxw {
+	background: url('../images/file_system/small/sxw.png') 0px 2px no-repeat;
+}
+.priloha-tar {
+	background: url('../images/file_system/small/tar.png') 0px 2px no-repeat;
+}
+.priloha-tgz {
+	background: url('../images/file_system/small/tgz.png') 0px 2px no-repeat;
+}
+.priloha-tiff {
+	background: url('../images/file_system/small/tiff.png') 0px 2px no-repeat;
+}
+.priloha-tsv {
+	background: url('../images/file_system/small/tsv.png') 0px 2px no-repeat;
+}
+.priloha-txt {
+	background: url('../images/file_system/small/txt.png') 0px 2px no-repeat;
+}
+.priloha-vsd {
+	background: url('../images/file_system/small/vsd.png') 0px 2px no-repeat;
+}
+.priloha-xls {
+	background: url('../images/file_system/small/xls.png') 0px 2px no-repeat;
+}
+.priloha-xlsx {
+	background: url('../images/file_system/small/xlsx.png') 0px 2px no-repeat;
+}
+.priloha-xml {
+	background: url('../images/file_system/small/xml.png') 0px 2px no-repeat;
+}
+.priloha-zip {
+	background: url('../images/file_system/small/zip.png') 0px 2px no-repeat;
+}

@@ -1,0 +1,253 @@
+/* -------- spolocne definice ------------- */ 
+input[type="text"],
+input[type="password"],
+input[type="file"],
+input[type="image"],
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+select,
+textarea,
+button {
+	margin: 0;
+	padding: 3px;
+	border-radius: 4px;
+	border: 1px solid #CCD2D4;
+	
+}
+
+/* -------- oramovani tlacitek ------------- */
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="image"],
+button {
+	color: #0059A9;
+	cursor: pointer;
+	font-weight: bold;
+	background-color: #F8F8F8;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#F8F8F8), to(#E6E6E6));
+	background-image: -webkit-linear-gradient(bottom, #F8F8F8, #E6E6E6);
+	background-image: -moz-linear-gradient(bottom, #F8F8F8, #E6E6E6);
+	background-image: -ms-linear-gradient(bottom, #F8F8F8, #E6E6E6);
+	background-image: -o-linear-gradient(bottom, #F8F8F8, #E6E6E6);
+	background-image: linear-gradient(to bottom, #F8F8F8, #E6E6E6);
+}
+
+/* ----------- zakazano ------------- */
+input[type]:hover.zakazan,
+input[type]:focus.zakazan,
+textarea:hover.zakazan,
+textarea:focus.zakazan,
+select:hover.zakazan,
+select:focus.zakazan { 
+	border-bottom: 1px solid #CCD2D4;
+	cursor: not-allowed;
+}
+
+input[type].zakazan,
+button.zakazan {
+	opacity: 0.5;
+}
+
+input[type="image"] {
+	padding: 0px;
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus,
+select:hover,
+select:focus { 
+	border-bottom: 1px solid #0059A9;
+}
+
+/* ------------ select list styl ----------- */
+
+select {
+    margin: 0;
+    outline: none;
+    display: inline-block;
+/*
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+*/
+    cursor: pointer;
+}
+
+.ff label.select,
+.chrome label.select {
+	position: relative;
+}
+
+.ff label.select:after,
+.chrome label.select:after {
+    content:'<>';
+    color: #0059A9;
+    font: 11px "Consolas", monospace;
+    font-weight: bold;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    right: 8px;
+    top: 2px;
+    position: absolute;
+    pointer-events: none;
+}
+
+.ff label.select:before,
+.chrome label.select:before  {
+    content: '';
+    right: 5px;
+    top: -3px;
+    width: 20px;
+    height: 24px;
+    background: #E6E6E6;
+    position: absolute;
+    pointer-events: none;
+    display: block;
+    border-radius: 0 4px 4px 0;
+}
+
+/* ----------- hlasky -------------------- */
+#zprava {
+    padding: 20px; 
+    margin: 10px 10px; 
+    padding-left: 10px; 
+    border-radius: 4px 4px 4px 4px;
+}
+
+#zprava h2 {
+    font-size: 1.4em; 
+    margin-bottom: 0.5em; 
+}
+
+#zprava.chyba { 
+    background-color: #F2DEDE;
+    border-color: #BF1627;
+    color: #BF1627;
+}
+
+#zprava.ok { 
+    color: #6F9300; 
+    background-color:#CCFFC6;
+    border-color:#6F9300;
+}
+
+#zprava.info { 
+    color: #0059A9; 
+    background-color:#AFCFFF;
+    border-color:#0059A9;
+}
+
+/* WebForms */
+.web-form-portlet {
+	overflow: hidden;
+}
+
+.web-form-portlet .aui-field-label {
+	display: inline-block;
+	width:100%;
+}
+
+.web-form-portlet input[type="text"] {
+	width: 99%;
+}
+
+.web-form-portlet select {
+	width: 100%;
+}
+
+.web-form-portlet textarea {
+	width: 100%;
+	max-width: 660px;
+	min-width: 660px;
+}
+
+.web-form-portlet .taglib-captcha {
+	width: 100%;
+}
+
+.web-form-portlet .taglib-captcha img {
+	margin-left: 210px;
+}
+
+.alert.alert-error {
+    display: inline-block;
+    /*float: right;*/
+    padding: 0 50px 0 0;
+    
+    text-align: right;
+    width: 606px;
+}
+
+/* Paid Products */
+.portlet-paid-products {
+	margin-top: 20px; /* odstranit - jen pro ladeni */
+   	
+}
+
+.portlet-paid-products .tabulka-formular {
+	/*margin: 0 10px;*/
+	background-color: #eff1f9;
+    border: 1px solid #c3d7fa;
+    width: 100%;
+}
+
+
+.portlet-paid-products .tabulka-formular tr:first-child td {
+	    padding: 20px 5px 5px 5px;
+}
+
+.portlet-paid-products .tabulka-formular tr:last-child td {
+	    padding: 5px 5px 20px 5px;
+}
+
+.portlet-paid-products .tabulka-formular td {
+	    padding: 5px;
+}
+
+.portlet-paid-products .tabulka-formular td label {
+	font-weight: bold;
+	width: 200px;
+	display: inline-block;
+	padding-left: 15px;
+	white-space: nowrap;
+}
+
+/* Internet Products */
+.portlet-internet-products {
+	margin-top: 20px; /* odstranit - jen pro ladeni */
+   	
+}
+
+.portlet-internet-products .tabulka-formular {
+	/*margin: 0 10px;*/
+	background-color: #eff1f9;
+    border: 1px solid #c3d7fa;
+    width: 100%;
+}
+
+
+.portlet-internet-products .tabulka-formular tr:first-child td {
+	    padding: 20px 5px 5px 5px;
+}
+
+.portlet-internet-products .tabulka-formular tr:last-child td {
+	    padding: 5px 5px 20px 5px;
+}
+
+.portlet-internet-products .tabulka-formular td {
+	    padding: 5px;
+}
+
+.portlet-internet-products .tabulka-formular td label {
+	font-weight: bold;
+	width: 200px;
+	display: inline-block;
+	padding-left: 15px;
+	white-space: nowrap;
+}

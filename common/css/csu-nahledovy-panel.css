@@ -1,0 +1,264 @@
+/* Nahledovy panel */
+#nahledovyPanel .portlet-NahledovyPanel {
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    background-color: #F6F6F6;
+    border-bottom: 1px solid #333;
+}
+
+#nahledovyPanel .portlet-topper {
+    display: none;
+}
+
+.portlet-NahledovyPanel .wrapper-table {
+    width: 100%;
+}
+
+.portlet-NahledovyPanel .wrapper-table td {
+    padding: 2px 7px 7px;
+}
+
+.portlet-NahledovyPanel .wrapper-table tr.top-row {
+    padding-bottom: 0px;
+}
+
+.portlet-NahledovyPanel .wrapper-table tr.top-row table {
+    width: 100%;
+}
+
+.portlet-NahledovyPanel .wrapper-table tr.bottom-row {
+    padding-top: 0px;
+}
+
+.portlet-NahledovyPanel .wrapper-table tr.bottom-row .nahled-akce-menu {
+    width: 165px;
+    border-radius: 0px;
+    height: 26px;
+}
+
+.portlet-NahledovyPanel .wrapper-table td.nazev-col {
+    padding: 2px 10px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#nahledovyPanel .portlet-Content {
+    padding: 0;
+}
+
+.portlet-NahledovyPanel table.stranka-info {
+    margin: 0 auto 0 0;
+}
+
+.portlet-NahledovyPanel table.ovladani {
+    margin: -5px 0 0 auto;
+}
+
+.portlet-NahledovyPanel .clear {
+    clear: both;
+}
+
+.portlet-NahledovyPanel table .bottom-row td {
+    vertical-align: top;
+}
+
+.portlet-NahledovyPanel table.stranka-info td {
+    padding: 2px 5px;
+    text-align: left;
+}
+
+
+.portlet-NahledovyPanel table.stranka-info td.nazev {
+    white-space: nowrap;
+}
+
+.portlet-NahledovyPanel table.stranka-info td.hodnota {
+    font-weight: bold;
+}
+
+.portlet-NahledovyPanel table.ovladani td {
+    padding: 0px 6px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.portlet-NahledovyPanel table.ovladani tr td span.ui-selectmenu-button {
+    width: 165px !important;
+    border-radius: 0px;
+    height: 26px;
+}
+
+.portlet-NahledovyPanel table.ovladani tr td ui-selectmenu-open ul {
+    border-radius: 0px;
+}
+
+.portlet-NahledovyPanel #verzeSelect {
+    /*width: 100px;*/
+}
+
+.portlet-NahledovyPanel #verzeSelect-button {
+    display: block;
+}
+
+.portlet-NahledovyPanel #verzeSelect-button .ui-selectmenu-text {
+    padding: 0.2em .6em;
+}
+
+.portlet-NahledovyPanel table.ovladani .akce {
+    overflow: hidden;
+    padding-top: 5px;
+}
+
+.portlet-NahledovyPanel table.ovladani .akce .lfr-actions a {
+}
+
+.nahled-akce a{
+    font-weight: normal !important;
+}
+
+
+.portlet-NahledovyPanel .wrapper {
+    padding: 5px 0px;
+}
+
+.portlet-NahledovyPanel .prepinacModu {
+    padding-right: 0;
+}
+
+#prepinacModu .ui-button {
+    height: 26px;
+}
+
+.portlet-NahledovyPanel .ui-buttonset {
+    margin-right: 0.3em;
+}
+
+.portlet-NahledovyPanel .stav-KONCEPT {
+    color: blue;
+}
+.portlet-NahledovyPanel .stav-SCHVALENO {
+    color: green;
+}
+.portlet-NahledovyPanel .stav-SMAZANO {
+    color: red;
+}
+.portlet-NahledovyPanel .stav-ZNEPLATNENO {
+    color: orange;
+}
+.portlet-NahledovyPanel .stav-ARCHIVOVANO {
+    color: orange;
+}
+
+.portlet-NahledovyPanel .zverejneni-ZVEREJNENO {
+    color: green;
+}.portlet-NahledovyPanel .zverejneni-NEZVEREJNENO {
+    color: red;
+}.portlet-NahledovyPanel .zverejneni-NAPLANOVANO {
+    color: blue;
+}.portlet-NahledovyPanel .zverejneni-ZVEREJNENA_JINA_VERZE {
+    color: blue;
+}.portlet-NahledovyPanel .zverejneni-NAPLANOVANA_JINA_VERZE {
+    color: blue;
+}
+
+ul#verzeSelect-menu{
+    max-height: 300px;
+}
+
+#prepinacModu {
+    width: 140px;
+}
+#prepinacModu .ui-button {
+    width: 150px;
+    border-radius: 0px;
+    margin-bottom: 5px;
+}
+.portlet-NahledovyPanel .wrapper-table .userinfo {
+    padding-top: 2px;
+    text-align: right;
+    white-space: nowrap;
+}
+.portlet-NahledovyPanel .wrapper-table .userinfo .plneJmeno {
+    font-weight: bold;
+    padding-right: 5px;
+    font-size: 13px;
+}
+.portlet-NahledovyPanel .wrapper-table .userinfo .logout a {
+    color: #2c2f34;
+    font-weight: bold;
+    text-shadow: 1px 1px #fff;
+    font-size: 0.8em;
+}
+
+.portlet-NahledovyPanel .wrapper-table .userinfo .logout a:hover {
+    color: #bf1627;
+}
+.lfr-menu-list {
+    width: 165px;
+}
+.ui-ikona-nastroje {
+    width: 25px;
+    height: 25px;
+    background-image: url('../images/nahledovy_panel/tools.png') !important;
+}
+#nastroje {
+    float: left;
+    width: 1.8em;
+    height: 1.8em;
+}
+#nazev {
+    float: left;
+    padding: 3px 0px 0px 10px;
+}
+.nast-menu {
+    position: absolute;
+    margin-top: 3px !important;
+}
+.nast-container {
+    display: inline;
+}
+.tlacitko span {
+    display: inline;
+}
+button.ui-button-icon-only {
+    width: 1.8em;
+    height: 1.8em;
+}
+#menu {
+    background: #ccc9c9 url('../images/application/menu_bg.png') repeat-x 0 0;
+    padding: 3px 1px;
+}
+#menu li {
+    font-weight: normal;
+    border: none;
+}
+#menu li:hover {
+    background: #5b677d;
+}
+#menu li:hover a {
+    color: #fff;
+    text-shadow: -1px -1px #2c2f34;
+}
+#menu li img {
+    padding: 0px 3px;
+}
+#menu li a {
+    color: #212121;
+    text-decoration: none;
+    font-size: 13px;
+}
+#tlacitko {
+    border: 1px solid #d3d3d3;
+    border-radius: 0px;
+    background: #e6e6e6;
+}
+#tlacitko:hover {
+    border: 1px solid #999;
+    background: #dadada;
+}
+#tlacitko.ui-state-focus {
+    border: 1px solid #d3d3d3;
+    background: #e6e6e6;
+}

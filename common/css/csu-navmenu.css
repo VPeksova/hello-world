@@ -1,0 +1,227 @@
+#navigation {
+	background: url("../images/CSU/csu_2012_bg-menu.gif") repeat-x 0 0;
+	clear: both;
+	margin: 0 auto 5px;
+	height: 46px;
+	position: relative;
+}
+
+#navigation a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.16em;
+    line-height: 40px;
+    vertical-align: middle;
+    text-shadow: 0px 1px 1px black;
+    padding-top: 5px;
+    height: 40px;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-topright: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    -ms-transition: none;
+    transition: none;
+
+}
+
+#navigation a:hover, #navigation a:focus, #navigation a:active, #navigation li.selected a{
+    background: #bc091b;
+}
+
+#navigation li:hover a {
+    background-color: #bc091b;
+}
+
+/*#navigace-mala #nav-mala-menu a:hover, #navigace-mala #nav-mala-menu a:focus, #navigace-mala #nav-mala-menu a:active, #navigace-mala #nav-mala-menu li.selected a {
+    background: #bc091b;
+}*/
+
+#navigation a span {
+	padding: 18px 21px 0 21px;
+}
+
+#navigation ul,
+ul.child-nav-menu {
+	list-style: none;
+	margin: 0;
+	padding: 1px 0;
+}
+
+#navigation li {
+	position: static !important;
+	vertical-align: top;
+	display: block;
+	float: left;
+}
+
+#navigation li:hover div {
+    display:block;
+}
+
+#navigation li.home {
+	/*width: 38px;*/
+	/*padding-left: 10px;*/
+	/*bottom:3px;*/
+}
+
+#navigation li.home a,
+#navigation-mala div.nav-mala-menu-child li.home a{
+    width: 48px;
+	background: url("../images/CSU/csu_2012_menu-home1.gif") no-repeat center 16px transparent;
+}
+
+#navigation li.home a:hover,
+#navigation li.home a:focus,
+#navigation li.home a:active,
+#navigation li.home.selected a/*,
+#navigation-mala div.nav-mala-menu-child li.home a:hover,
+#navigation-mala div.nav-mala-menu-child li.home a:focus,
+#navigation-mala div.nav-mala-menu-child li.home a:active,
+#navigation-mala div.nav-mala-menu-child li.home.selected*/ a{
+    background: url("../images/CSU/csu_2012_menu-home1.gif") no-repeat center 16px #bc091b;
+}
+
+#navigation li.home a span{
+	visibility:hidden;
+}
+
+#navigation li:hover.home a span {
+	background: url("../images/CSU/csu_2012_menu-home2.gif") no-repeat 0 16px;
+}
+
+#navigation li.selected a span,
+#navigation li:hover a span {
+	position: relative;
+}
+
+#navigation li,#navigation a {
+	display: inline-block;
+}
+
+#navigation div.nav-main-child-menu {
+	background-color: transparent;
+	display: none;
+	overflow: hidden;
+	position: absolute;
+    top: 45px;
+    left: -15px;
+	z-index: 500;
+	width: 920px;
+    padding: 0 15px 15px 15px;
+}
+
+#navigation div.nav-child-menu{
+	width: 920px;
+    box-shadow: 5px 5px 15px #bdbdbd, -5px 5px 15px #bdbdbd;
+    border-top: 5px solid #bc091b;
+    background: none repeat scroll 0 0 #FFFFFF;
+    overflow: visible;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+#navigation ul.child-menu{
+	background: none repeat scroll 0 0 transparent;
+    bottom: inherit;
+    float: left;
+    height: auto;
+    left: inherit;
+    padding: 25px 0 0 25px;
+    position: relative;
+    width: 280px;
+}
+
+#navigation ul.child-menu.second,
+#navigation ul.child-menu.third{
+	padding: 0px 0px 0px 25px;
+}
+
+#navigation ul.child-menu li{
+	float: none;
+    height: auto;
+    width: 250px;
+    font-size: 13px;
+}
+
+#navigation ul.child-menu li a,
+a.decor-arrow,
+ul.child-nav-menu li a{
+	background: url("../images/CSU/csu_2012_arrow-blue.gif") no-repeat scroll 0 7px transparent;
+    color: #0059A9;
+    text-shadow:none;
+    float: none;
+    height: auto;
+    line-height: 25px;
+    padding: 0 0 5px 15px;
+    text-decoration: underline;
+    display:inline-block;
+    font-size: 13px;
+}
+ul.child-nav-menu li{
+	padding-right:8px;
+}
+ul.child-nav-menu li a{
+	font-size:0.923em;
+	padding: 0 0 2px 10px;
+}
+ul.child-nav-menu{
+	display:block;
+	float:left;
+}
+
+#navigation ul.child-menu li:hover, #navigation ul.child-menu li.selected, ul.child-nav-menu li:hover { 
+	background: none repeat scroll 0 0 #fff;
+	bottom: 0px;
+}
+
+#navigation ul.child-menu li a:hover, #navigation ul.child-menu li.selected, a:hover .decor-arrow, ul.child-nav-menu li a:hover {
+	color: #bf1627;
+ 	background: url("../images/CSU/csu_2012_arrow-red.gif") 0 7px no-repeat;
+}
+
+#navigace-mala {
+    width: 100%;
+    height: 38px;
+    display: none;
+    background: #0D7ABC;
+}
+
+#navigace-mala #nav-mala-menu {
+    height: 38px;
+    background: url("../images/CSU/nav-little-menu.png") no-repeat scroll right top;
+    position: absolute;
+    left: 0px;
+    right: 9px;
+    top: 7px;
+}
+
+/*#navigace-mala #nav-mala-menu li{
+    width: 80%;
+}
+
+#nav-mala-menu span {
+    display: block;
+    color:#fff;
+    font-size: 1.4em;
+    font-weight:bold;
+    padding: 5px 10px 0;
+}*/
+
+#navigation .col-2,
+#navigation .col-3,
+#navigation .col-7 { width: 920px; }
+#navigation .col-4,
+#navigation .col-6 { width: 614px; }
+#navigation .col-5 { width: 306px; }
+#navigation .col-2 { left: -48px; }
+#navigation .col-3 { left: -147px; }
+#navigation .col-4 { left: -259px; }
+#navigation .col-5 { left: -421px; }
+#navigation .col-6 { left: -589px; }
+#navigation .col-7 { left: -742px; }
+

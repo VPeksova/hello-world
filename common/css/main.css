@@ -1,0 +1,15 @@
+﻿html, body { font-size: 86%! important;  font-family: verdana, Arial, lucida, sans-serif! important; margin: 5; padding: 5; text-align:center;}
+
+#core {margin-left:auto ; margin-right:auto ; width : 960px/*auto*/ ; text-align: left;}
+
+table {width: 840px ; font-size: 100%! important; font-family: verdana, Arial , lucida, sans-serif! important; position:relative; margin-left: 11%; _margin-left: 10%; margin-top:2em; border:1px solid #000;}
+
+.ep {background-color:#e3e4e5; margin-bottom: 0.3em; margin-top:0; padding: 8px 4px; font-weight:600;} 
+
+.ep_ram {border-bottom : 1px solid #e3e4e5;width:75%; padding-bottom: 8px;}
+
+.ep_skup { color: #000000; font-size:95%;_font-size:90%;padding:0;font-weight:600;}
+
+A.sipka,A.sipka:active,A.sipka:hover {border:1px solid #666666; padding:1px 3px 2px 0.8em; color:#666666; text-decoration:none;font-size:95%;}
+
+p {padding-top:1.2em;font-size:90%;}

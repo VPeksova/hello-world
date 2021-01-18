@@ -1,0 +1,531 @@
+/* Styly pro responsivni design krajskych webu */
+@media screen and (max-width: 925px) {
+	
+	div#column-1, div#column-2 {
+		width: 99% !important;
+		padding-right: 0px !important;
+	}
+
+	div#main-content.columns-2 div.portlet-layout {
+		display: block !important;
+		width: 99%;
+	}
+
+	div#main-content.columns-2 table.portlet-layout {
+		display: block !important;
+		width: 99%;
+	}
+
+	div#main-content.columns-2 #column-1 {
+		display: block;
+		float: none;
+		width: auto;
+		padding: 0;
+		margin: 0;
+	}
+
+	div#main-content.columns-2 #column-2 {
+		display: block;
+		float: none;
+		width: auto;
+		padding: 0;
+		margin: 0;
+	}
+
+	div.portlet-column {
+		display: block;
+	}
+
+	body.czso_body {
+		background-color: white;
+		width: 99%s;
+		margin-bottom: 10px;
+		padding-left: 2px;
+	}
+
+	#background{ 
+		width:99%; 
+		background: transparent;
+	}
+
+	#wrapper {
+		width:99%;
+		margin: 0 auto;
+	}
+
+	#header  {}
+	#content {}
+
+	#odkazy-home div {
+		width: 99%;
+	}
+
+	#odkazy-home .left, #odkazy-home .center, #odkazy-home .right {
+		width: 99%;
+	}
+
+	table thead th,
+	table tbody td {
+		word-break: break-all;
+	}
+
+	h1 {
+		font-size: 200%;
+	}
+
+	h2 {
+		font-size: 170%;
+		padding-top: 1em;
+	}
+
+	/* Zahlavi */
+	.site-title .site-name {
+		clear: both;
+		display: block;
+		margin: 0;
+		position: inherit;
+	}
+
+	header#banner {
+		padding: 0;
+	}
+
+	header#banner div#heading {
+		text-align: center;
+	}
+
+	header#banner div#heading h1.site-title {
+		float: none;
+		margin: 0;
+		padding-bottom: 10px;
+	}
+
+	header#banner div#heading div#top-menu {
+		display: inline-block;
+		float: none;
+		overflow: visible;
+		width: auto;
+	}
+
+	header#banner div#heading div#top-menu ul.zahlavi {
+		float: none;
+	}
+
+	header#banner div#heading div#top-menu ul.zahlavi li {
+		display: inline-block;
+		float: none;
+		padding: 0 10px;
+	} 
+
+	header#banner div#heading div#language {
+		position: static;
+		display: inline-block;
+		float: right;
+	}
+
+	header#banner div#heading div#search {	
+		position: static;
+		margin: 10px auto 10px;
+	}
+
+	#language, #top-menu {
+		line-height: 1.5em;
+	}
+
+
+	/* ODKAZY NA TITULNI STRANCE */
+	#odkazy-home div {
+		text-align: right;
+		float: none;
+	}
+
+	#odkazy-home a span {
+		margin-right: 1em;
+	}
+
+	#odkazy-home span.norm {
+		display: none;
+	}
+
+	#odkazy-home span.slim {
+		display: inline;
+		text-decoration: underline;
+		line-height: 2em;
+	}
+
+	/* BLOK BANNERU */
+	div#blokBanneru {
+		background-image: none;
+		width: auto;
+		margin: 0;
+		padding: 20px 0 20px 0;
+		overflow: visible;
+		width: 98%;
+	}
+
+	div#blokBanneru div.radek {
+		overflow: visible;
+		float: none;
+	}
+
+	div#blokBanneru div.banner {
+		float: none;
+		padding: 0;
+		margin: 20px auto;
+	}
+
+	div#blokBanneru div.banner:first-of-type {
+		padding: 0;
+		margin: 20px auto;
+	}
+
+	div#blokBanneru div.banner:last-of-type {
+		padding: 0;
+		margin: 20px auto;
+	}
+
+	div#blokBanneru div.banner  .obrazek {
+	}
+
+	div#blokBanneru div.banner  .obrazek img {
+		width: 190px;
+		height: 100px;
+		border: 2px solid grey;
+	}
+
+	#blokBanneru .popis {
+	padding: 0 !important;
+	margin: 0px;
+	width: 100% !important;
+	font-size: 1em;
+	}
+
+	/* MENU NAVIGACE */
+	#navigation {
+		padding-left: 0px;
+		display: none;
+		background-color: #fff;
+		background: none;
+		height: auto;
+		width: 100%;
+		z-index: 500;
+	}
+	
+	#navigace-mala {
+		display: block;
+		border-top-left-radius: 4px;
+		border-top-right-radius: 4px;
+		font-size: 1.16em;
+		height: 40px;
+		line-height: 40px;
+		padding-top: 5px;
+		text-decoration: none;
+		transition: none 0s ease 0s;
+		vertical-align: middle;
+	}
+
+	#navigace-mala:hover {
+		cursor: pointer;
+	}
+
+	#navigation li:nth-child(odd),
+	#navigation li.selected:nth-child(odd) {
+		background: #efefef;
+		margin-top: 1px;
+	}
+
+	#navigation li:nth-child(even),
+	#navigation li.selected:nth-child(even) {
+		background: #eaeaea;
+		margin-top: 1px;
+	}
+
+	#navigation li.selected,
+	#navigation li:hover {
+		background-color: #0059A9;
+		position: relative;
+		height: auto;
+		bottom: 0px;
+	}
+	
+	#navigation > ul > li.home { 
+		display: none; 
+	}
+
+	#navigation ul, 
+	ul.child-nav-menu {
+		padding: 0;
+	}
+
+	#navigation a {
+		text-shadow: none;
+	}
+
+	#navigation ul li a span {
+		white-space: nowrap;
+	}
+
+	
+	#navigation li:hover a {
+		color: white;
+		background-color: #0d7abc;
+	}
+
+	#navigation li.selected a {
+		font-weight: bold;
+		background: none;
+	}
+
+	#navigation li.selected a > span::before {
+		content: "> ";
+	}
+
+	#navigation li.selected:hover a {
+		background-color: #0d7abc;
+	}
+	
+	#navigation li.selected a span,
+	#navigation li:hover a span {
+		bottom:0px;
+	}
+	
+	#navigation li,
+	#navigation li a {
+		float: none;
+		display: block;
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+		color: black;
+		line-height: 34px;
+	}
+	
+	#navigation li:hover div{
+	  display:none;
+	}
+	
+	#navigation div.nav-main-child-menu {display:none;}
+	
+	#column-1{float:left;}
+	#column-2{float:left;}
+	
+	#navigation .nav-button {
+	    background-attachment: scroll, scroll;
+	    background-clip: border-box, border-box;
+	    background-color: rgba(0, 0, 0, 0);
+	    background-image: url("../images/csu/menu_short.png"), linear-gradient(to bottom, #0059A9 0px, #0059A9 100%);
+	}
+	
+	/* PATIČKA */
+	#footer {
+		margin: 0 auto;
+		color: black;
+		width:90%;
+		padding: 10px;
+		text-align: center;
+	}
+
+	#footer ul {
+		display: inline-block;
+		position: static;
+		left: 0;
+		margin: 5px;
+	}
+
+	#footer ul > li {
+		margin: 0;
+		padding: 0 5px;
+		display: inline-block;
+		float: none;
+	}
+
+	#footer > p {
+		float: none;
+		text-align: center;
+		display: block;
+		margin-bottom: 0;
+	}
+
+	#footer #footerDate {
+		width: 100%;
+		float: none;
+		display: block;
+		text-align: center;
+	}
+
+	div#background-footer {
+		display: none;
+	}
+
+	/* upravy konkretnich prvku */
+	div.portlet-column div.regional-data {
+		float: none;
+		width: 100%;
+	}
+
+	div.regional-data > div#mapa {
+		display: none;
+	}
+
+	div.regional-data > div#mapa-pouze-odkazy {
+		display: block;
+		width: 99%;
+	}
+
+	div.regional-data > div#mapa-pouze-odkazy > ul.seznam-kraju {
+		display: inline-block;
+		padding-left: 2em;
+		width: 40%;
+	}
+
+	div.regional-data > div#mapa-pouze-odkazy > ul.seznam-kraju > li {
+		list-style: url("../images/CSU/csu_2012_arrow-blue.gif") outside;
+		line-height: 2em;
+	}
+
+	/* Upravy konkretnich prvku */
+	a#sign-in {
+		display: none;
+	}
+
+	a#print-button {
+		display: none;
+	}
+
+	.column-2-home {
+		width: 100% !important;
+	}
+
+	.portlet-Carousel .aui-carousel {
+		position: static;
+		width: 99%;
+		height: auto;
+	}
+
+	div.portlet-nested-portlets .portlet-column {
+		width: 100% !important;
+	}
+
+	div.portlet-nested-portlets .portlet-column div.latest-data {
+		width: 100% !important;
+		float: none;
+	}	
+
+	div.portlet-nested-portlets .portlet-column-first {
+		padding-left: 5px;
+	} 
+
+	.portlet-Attachments {
+		width: auto;
+	}
+
+
+	/* Bannery */
+	body.domov .portlet-boundary_ContextMenuPortlet_WAR_rsprezentace_,
+	body.home .portlet-boundary_ContextMenuPortlet_WAR_rsprezentace_  {
+		background-image: none;
+		width: auto;
+		margin: 0;
+		padding: 00;
+		overflow: visible;
+		width: 98%;
+	}
+
+	body.domov .portlet-boundary_ContextMenuPortlet_WAR_rsprezentace_ .banner:first-of-type, 
+	body.home .portlet-boundary_ContextMenuPortlet_WAR_rsprezentace_ .banner:first-of-type {
+	    padding: 0;
+	}
+
+	body.domov .portlet-boundary_ContextMenuPortlet_WAR_rsprezentace_ li.banner,
+	body.home .portlet-boundary_ContextMenuPortlet_WAR_rsprezentace_ li.banner {
+		float: none;
+		padding: 0;
+		margin: 20px auto;
+	}
+
+	body.domov .portlet-boundary_ContextMenuPortlet_WAR_rsprezentace_ li.banner div.banner,
+	body.home .portlet-boundary_ContextMenuPortlet_WAR_rsprezentace_ li.banner div.banner {
+		margin: 10px 0px;
+	}
+
+
+	body.domov .portlet-boundary_ContextMenuPortlet_WAR_rsprezentace_ li.banner:last-of-type,
+	body.home .portlet-boundary_ContextMenuPortlet_WAR_rsprezentace_ li.banner:last-of-type {
+		padding: 0;
+		margin: 20px auto;
+	}
+
+	body.domov .portlet-boundary_ContextMenuPortlet_WAR_rsprezentace_ li.banner  .obrazek,
+	body.home .portlet-boundary_ContextMenuPortlet_WAR_rsprezentace_ li.banner  .obrazek {
+	}
+
+	body.domov .portlet-boundary_ContextMenuPortlet_WAR_rsprezentace_ li.banner  .obrazek img,
+	body.home .portlet-boundary_ContextMenuPortlet_WAR_rsprezentace_ li.banner  .obrazek img {
+		width: 190px;
+		height: 100px;
+		border: 2px solid silver;
+	}
+
+	body.domov .portlet-boundary_ContextMenuPortlet_WAR_rsprezentace_ .popis,
+	body.home .portlet-boundary_ContextMenuPortlet_WAR_rsprezentace_ .popis {
+	padding: 0 !important;
+	margin: 0px;
+	width: 100% !important;
+	font-size: 1em;
+	}
+
+
+	/* Carousel */
+	.aui-carousel {
+		width: 100% !important;
+		min-height: 26px !important;
+    	min-width: 59px !important;
+		height: auto !important;
+		padding-bottom: 20%;
+	}
+
+	.aui-carousel img, .aui-carousel .aui-carousel-item {
+	    height: auto !important;
+	    width: 100% !important;
+	    overflow: hidden;
+	}
+
+	.aui-carousel .aui-carousel-item div.image-name h2 {
+		font-size: 1em;
+		line-height: 1em;
+	}
+	
+	.aui-carousel .aui-carousel-item div.image-name h2 span {
+		line-height: 200%;	
+	}
+
+	.portlet-Carousel .image-name {
+		width: 90%;
+	}
+
+	.portlet-Carousel .image-name a.more {
+    	display: none;
+	}
+
+	.aui-carousel menu {
+		top: 15px;
+		left: 15px;
+		bottom: auto !important;
+		right: auto;	
+	}
+
+
+	/* Aktuality */
+	.portlet-RecentNews .aktuality-table td {
+		white-space: normal;
+		word-break: normal;
+	}
+
+	.portlet-RecentNews > a.feed {
+		top: 24px;
+	}
+}
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    select {padding-right:18px}
+}

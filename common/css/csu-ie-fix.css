@@ -1,0 +1,14 @@
+/**/
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="image"],
+button {
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#F8F8F8, endColorstr=#E6E6E6);
+}
+
+input.zakazan,
+button.zakazan {
+	-ms-filter: alpha(opacity=50);
+	filter: alpha(opacity=50);
+}

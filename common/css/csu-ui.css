@@ -1,0 +1,189 @@
+/* linky na soubory */
+a.ikona_prilohy {
+/* 	float: left; */
+	width: 16px;
+	height: 16px;
+	display: inline;
+/* 	margin-right: 3px; */
+	background: url('../images/file_system/small/csv.png') no-repeat scroll 0 0 transparent;
+	padding-left: 20px;
+}
+a.ikona_prilohy.ikona_bmp {
+	background: url("../images/file_system/small/bmp.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_css {
+	background: url("../images/file_system/small/css.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_csv {
+	background: url("../images/file_system/small/csv.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_doc {
+	background: url("../images/file_system/small/doc.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_docx {
+	background: url("../images/file_system/small/docx.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_dot {
+	background: url("../images/file_system/small/dot.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_gif {
+	background: url("../images/file_system/small/gif.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_gz {
+	background: url("../images/file_system/small/gz.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_htm {
+	background: url("../images/file_system/small/htm.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_html {
+	background: url("../images/file_system/small/html.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_jpeg {
+	background: url("../images/file_system/small/jpeg.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_jpg {
+	background: url("../images/file_system/small/jpg.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_js {
+	background: url("../images/file_system/small/js.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_lar {
+	background: url("../images/file_system/small/lar.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_odb {
+	background: url("../images/file_system/small/odb.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_odf {
+	background: url("../images/file_system/small/odf.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_odg {
+	background: url("../images/file_system/small/odg.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_odp {
+	background: url("../images/file_system/small/odp.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_ods {
+	background: url("../images/file_system/small/ods.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_odt {
+	background: url("../images/file_system/small/odt.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_page {
+	background: url("../images/file_system/small/page.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_pdf {
+	background: url("../images/file_system/small/pdf.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_png {
+	background: url("../images/file_system/small/png.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_ppt {
+	background: url("../images/file_system/small/ppt.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_pptx {
+	background: url("../images/file_system/small/pptx.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_rtf {
+	background: url("../images/file_system/small/rtf.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_swf {
+	background: url("../images/file_system/small/swf.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_sxc {
+	background: url("../images/file_system/small/sxc.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_sxi {
+	background: url("../images/file_system/small/sxi.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_sxw {
+	background: url("../images/file_system/small/sxw.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_tar {
+	background: url("../images/file_system/small/tar.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_tgz {
+	background: url("../images/file_system/small/tgz.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_tiff {
+	background: url("../images/file_system/small/tiff.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_tsv {
+	background: url("../images/file_system/small/tsv.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_txt {
+	background: url("../images/file_system/small/txt.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_vsd {
+	background: url("../images/file_system/small/vsd.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_xls {
+	background: url("../images/file_system/small/xls.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_xlsx {
+	background: url("../images/file_system/small/xlsx.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_xml {
+	background: url("../images/file_system/small/xml.png") no-repeat scroll 0 0 transparent;
+}
+a.ikona_prilohy.ikona_zip {
+	background: url("../images/file_system/small/zip.png") no-repeat scroll 0 0 transparent;
+}
+
+/*jQuery UI*/
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    /*background-color: #e6e6e6;*/
+    background-color: #DCE9FE;
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* Dalsi ikony souboru */
+.bmp, .csv, .doc, .dot, .gif, .jpg, .pdf, .png, .ppt, .rtf, .swf, .txt, .xls, .excel, .xml, .zip {
+	display: inline-block;	
+	position: relative;
+	top: 3px;
+	min-width: 0px;
+	height: 16px;
+	margin: 0 3px;
+	line-height: 16px;
+	padding-left: 20px;
+}
+
+.bmp > span.neviditelny, .csv > span.neviditelny, .doc > span.neviditelny, .dot > span.neviditelny, 
+.gif > span.neviditelny, .jpg > span.neviditelny, .pdf > span.neviditelny, .png > span.neviditelny, 
+.ppt > span.neviditelny, .rtf > span.neviditelny, .swf > span.neviditelny, .txt > span.neviditelny, 
+.xls > span.neviditelny, .excel > span.neviditelny, .xml > span.neviditelny, .zip > span.neviditelny {
+	position: absolute; 
+	left: -10000px; 
+	top: auto; 
+	width:1px; 
+	height:1px; 
+	overflow:hidden; 	
+}
+
+.bmp > span:not(.neviditelny), .csv > span:not(.neviditelny), .doc > span:not(.neviditelny), .dot > span:not(.neviditelny), 
+.gif > span:not(.neviditelny), .jpg > span:not(.neviditelny), .pdf > span:not(.neviditelny), .png > span:not(.neviditelny), 
+.ppt > span:not(.neviditelny), .rtf > span:not(.neviditelny), .swf > span:not(.neviditelny), .txt > span:not(.neviditelny), 
+.xls > span:not(.neviditelny), .excel > span:not(.neviditelny), .xml > span:not(.neviditelny), .zip > span:not(.neviditelny) {
+ 	
+}
+
+.bmp { background: url(../images/file_system/small/bmp.png) no-repeat; }
+.csv { background: url(../images/file_system/small/csv.png) no-repeat; }
+.doc { background: url(../images/file_system/small/doc.png) no-repeat; }
+.dot { background: url(../images/file_system/small/dot.png) no-repeat; }
+.gif { background: url(../images/file_system/small/gif.png) no-repeat; }
+.jpg { background: url(../images/file_system/small/jpg.png) no-repeat; }
+.pdf { background: url(../images/file_system/small/pdf.png) no-repeat; }
+.png { background: url(../images/file_system/small/png.png) no-repeat; }
+.ppt { background: url(../images/file_system/small/ppt.png) no-repeat; }
+.rtf { background: url(../images/file_system/small/rtf.png) no-repeat; }
+.swf { background: url(../images/file_system/small/swf.png) no-repeat; }
+.txt { background: url(../images/file_system/small/txt.png) no-repeat; }
+.xls { background: url(../images/file_system/small/xls.png) no-repeat; }
+.excel { background: url(../images/file_system/small/xls.png) no-repeat; }
+.xml { background: url(../images/file_system/small/xml.png) no-repeat; }
+.zip { background: url(../images/file_system/small/zip.png) no-repeat; }

@@ -1,0 +1,114 @@
+.addthis_toolbox {
+    display: none;
+}
+
+.portlet-Attachments .publikace-priloha {
+    background-color: #E3E4E5 !important;
+    color: #000000 !important;
+    border: #ffffff 1px solid !important;
+}
+
+.portlet-Attachments .publikace-priloha:hover {
+    background-color: #fafafa !important;
+}
+
+.obsah{
+    background-color: #e3e4e5;
+    padding: 10px;
+    /*font-weight: bold;  */
+    /*font-size: 8pt;  */
+}
+.obsah h1{
+    color: #000000;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    font-size: 10pt;
+
+}
+
+.obsah-pruh{
+    border-top:1px solid #FFFFFF !important;
+}
+
+.export-logo{
+    margin-top: 20px;
+    margin-left: -52px;
+}
+
+.export-rozcestnik,
+.export-paticka {
+    width: 840px;
+    margin-top: 20px;
+}
+
+.export-rozcestnik{
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+.export-paticka{
+    text-align: center;
+}
+
+.export-rozcestnik table {
+    width: 100%;
+}
+
+.export-rozcestnik .link {
+    padding-left: 10px;
+}
+
+.export-rozcestnik .kod{
+    vertical-align: top;
+    width: 120px;
+    font-weight: normal;
+    padding: 8px 0;
+}
+
+.export-rozcestnik .kategorie{
+    background-color: #e3e4e5;
+    margin-bottom: 0.3em;
+    margin-top: 0;
+    padding: 8px 4px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.export-rozcestnik .nazev-cj{
+    font-weight: bold;
+    border-bottom: 1px solid #e3e4e5;
+    padding: 8px 0;
+}
+
+.export-rozcestnik .nazev-aj{
+    font-style: italic;
+    font-weight: bold;
+    padding: 8px 0;
+}
+
+.export-rozcestnik a{
+    border: 1px solid #666666;
+    padding: 1px 3px 2px 0.8em;
+    color: #666666;
+    text-decoration: none;
+    font-size: 95%;
+}
+
+.columns-2 #column-2{
+    display: none !important;
+}
+
+.columns-2 #column-1{
+    width: 100% !important;
+}
+
+.produkt-info-ext{
+    /*display: none !important;  */
+}
+
+/* fix pro offline commander */
+#background {
+   /* background: rgba(0, 0, 0, 0) url("../images/CSU/csu_2012_bg-page.gif") repeat-y scroll 50% 0;  */
+    background: rgba(0, 0, 0, 0) url("images/csu_2012_bg-page.gif") repeat-y scroll 50% 0;
+}

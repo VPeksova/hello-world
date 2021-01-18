@@ -1,0 +1,47 @@
+.portlet-dockbar,
+#top-menu,
+#language,
+#search,
+#navigation,
+#breadcrumbs,
+#nahledovyPanel,
+#sign-in,
+#invisibleLink,
+#footer .zapati,
+#footer #copyright,
+#print-button{
+    display: none;
+}
+
+#content .portlet-SiteMap {
+    display:none;
+}
+
+.portlet-layout{
+    display: block !important;
+}
+
+.portlet-column{
+    width:auto !important;
+    float: none !important;
+    display: block !important;
+}
+
+.site-title{
+    margin-left:0 !important;
+}
+
+.hidden.print {
+    position: inherit;
+    width: inherit;
+    height: inherit;
+    overflow: inherit;
+    padding: inherit !important;
+    margin: inherit !important;
+    display: inherit !important;
+}
+
+.portlet-Contextmenu .gray-box{
+    border: none !important;
+    margin-bottom: 15px !important;
+}
